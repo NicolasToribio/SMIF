@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  nav {
+    background-color: #4B0082; /* Dark Purple */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav a.topmenu {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav a.topmenu:hover {
+    text-decoration: underline;
+  }
+  
+  .competition-header {
+    background-color: #4B0082;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .competition-intro {
+    display: flex;
+    padding: 50px 20px;
+    align-items: center;
+  }
+  
+  .intro-text {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .intro-text h2 {
+    font-size: 28px;
+    color: #4B0082;
+    margin-bottom: 15px;
+  }
+  
+  .intro-image {
+    flex: 1;
+  }
+  
+  .intro-image img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .competition-details {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .competition-details h2 {
+    font-size: 28px;
+    color: #4B0082;
+    margin-bottom: 25px;
+  }
+  
+  .competition-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px;
+  }
+  
+  .competition-details ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .competition-details p {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  
+  .register-button {
+    background-color: #4B0082;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #3a0066;
+  }
+  
+  footer {
+    background-color: #4B0082;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  

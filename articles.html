@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articles - Alfred University</title>
+  <link rel="stylesheet" href="articles.css"> <!-- Link to your existing stylesheet -->
+</head>
+<body>
+  <nav>
+    <a class="topmenu" href="smif.html">Home</a>
+    <a class="topmenu" href="competition.html">Competition Page</a>
+    <a class="topmenu" href="articles.html">Articles</a> <!-- Keep active link highlighted -->
+    <!-- Other nav items -->
+  </nav>
+
+  <header class="articles-header">
+    <h1>Admin Login</h1>
+  </header>
+
+  <section class="login-section">
+    <div class="login-form">
+      <h2>Administrator Login</h2>
+      <form action="login.php" method="POST">
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" class="login-button">Login</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="articles-section">
+    <h2>Latest Articles</h2>
+    <div class="articles-categories">
+      <div class="category">
+        <h3>Finance</h3>
+        <ul>
+          <li><a href="#">How to Invest Wisely in 2024</a></li>
+          <li><a href="#">Understanding Stock Market Trends</a></li>
+          <li><a href="#">The Future of Cryptocurrency</a></li>
+        </ul>
+      </div>
+      <div class="category">
+        <h3>Economics</h3>
+        <ul>
+          <li><a href="#">Global Economic Outlook for 2024</a></li>
+          <li><a href="#">The Impact of Inflation on Investments</a></li>
+          <li><a href="#">Sustainable Economic Growth</a></li>
+        </ul>
+      </div>
+      <div class="category">
+        <h3>Business</h3>
+        <ul>
+          <li><a href="#">Effective Leadership in Modern Businesses</a></li>
+          <li><a href="#">Top Strategies for Business Growth</a></li>
+          <li><a href="#">Navigating the Challenges of Remote Work</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Alfred University. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

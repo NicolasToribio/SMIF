@@ -1,0 +1,453 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+  /* Navigation Bar */
+  
+  #home {
+    background-color: #7600bc;
+    background-image: url('https://www.alfred.edu/about/map/map-files/_images/olin.jpg');
+    background-size: cover; /* Ensure the image covers the entire nav area */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+    color: white; /* Set text color to white for better readability */
+    padding-top: 6cm; /* Increase padding to show more of the image */
+    padding-bottom: 6cm; /* Increase padding to show more of the image */
+    margin-left: -1cm;
+    margin-right: -1cm;
+    margin-top: -1cm;
+  }
+  /* CSS for the logo and navbar */
+.profile_image {
+  width: 100px; /* Adjust the size of the logo */
+  height: auto;
+}
+
+.navbar {
+  position: absolute; /* Overlay the navbar on the image */
+  top: 20px; /* Adjust the positioning as needed */
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Optional: semi-transparent background */
+  padding: 10px 0;
+  z-index: 10; /* Ensure it’s on top of the image */
+}
+
+.topdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topmenu {
+  margin: 0 15px;
+  color: #000; /* Adjust text color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Background image settings */
+.header-background {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Adjust height as needed */
+  background-image: url('path/to/your/background-image.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+}
+
+.profile_name {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  color: white;
+  font-size: 24px;
+  z-index: 5; /* Ensure it's on top of the image */
+}
+
+  /* Titles */
+  
+  h2 {
+    text-align: justify;
+    font-size: 50px;
+    text-align: center;
+    float: left;
+    color: #7600bc;
+    margin: 30px;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  
+  .introduction {
+    text-align: justify;
+    font-size: 30px;
+    text-align: center;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    animation-duration: 5s;
+    position: relative;
+  }
+  
+  /* Used in the About Me sections */
+  
+  .container {
+    display: flex;
+  }
+  
+  /* About Me */
+  
+  .tracker {
+    display: flex;
+    align-items: center;
+  }
+  
+  #tracker h1 {
+    font-size: 65px;
+    margin-top: 90px;
+    color: #7600bc;
+  }
+  
+  #tracker p {
+    font-size: 25px;
+    color: rgb(128, 128, 128);
+    margin-top: -1cm;
+  }
+  
+ 
+  
+  /* Skills */
+  
+  .officers-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .officers-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .team-group {
+    margin-bottom: 50px;
+  }
+  
+  .team-group h3 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #000;
+  }
+  
+  .team-group p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 30px;
+  }
+  
+  .officers-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .officer {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .officer img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .officer-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .officer-details p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .officer-details a {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .officer-details a img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .officer-details a img:hover {
+    filter: brightness(0.8);
+  }
+  
+  /* About us*/
+  .about-us-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .about-us-section h2 {
+    font-size: 36px;
+    color: #4B0082; /* Dark Purple */
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .about-video {
+    flex: 1;
+    max-width: 560px; /* Controls the width of the video */
+  }
+  
+  .about-text {
+    flex: 1.5;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  
+ 
+  /* Recommendations */
+  
+  .all_recommendations {
+    display: flex;
+    align-items: center;
+    margin-left: 1in;
+    flex-direction: row;
+    flex-flow: wrap;
+    padding: 20px;
+  }
+  
+  .recommendation {
+    font-style: italic;
+    text-align: left;
+    width: 21.875rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+    border:1px solid gray;
+    font-size: 18px;
+    height:150px
+  }
+  
+  .recommendation span {
+    color: #7600bc;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Scroll to Top Button */
+  
+  .iconbutton{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: #7600bc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    cursor: pointer;
+  }
+  
+  /* Form Pop-up */
+  
+  .popup {
+    width:400px;
+    background-color: #e8bcf0;
+    border-radius: 3mm;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    position: fixed;
+    /* padding: 30px; */
+    visibility: hidden;
+  }
+  
+  .popup img {
+    padding-top: 20px;
+  }
+  
+  .popup button {
+    background-color: #fff;
+    border: 1px solid #7600bc;
+    color: #7600bc;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+    margin-left: 25%;
+  }
+  
+  .popup button:hover {
+    background-color: #fff;
+    border: 2px solid #7600bc;
+    color: #7600bc;
+    display: block;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 25%;
+  }
+  
+  /* Recommendation Form */
+  
+  input, textarea {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin: 10px;  
+    width:100%;
+  }
+  
+  fieldset {
+    display: flexbox;
+    align-content: center;
+    justify-content: center;  
+    padding: 25px; 
+    margin-left: 50px; 
+    margin-right: 50px;   
+    border: thin solid white;
+    width: 50%;
+  }
+  
+  /* Buttons */
+  
+  button {
+    background-color: #fff;
+    border: 1px solid #7600bc;
+    color: #7600bc;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+  }
+  
+  button:hover {
+    background-color: #7600bc;
+    border: 1px solid #7600bc;
+    color: #fff;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .footer {
+    background-color: #4B0082; /* Dark Purple */
+    color: #ffffff; /* White text */
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-left {
+    max-width: 60%;
+  }
+  
+  .footer-logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-institute-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-school-name,
+  .footer-university {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-mission {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .footer-linkedin img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .footer-right {
+    max-width: 30%;
+  }
+  
+  .footer-right h4 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #FF6347; /* Tomato Red for emphasis */
+  }
+  
+  .footer-right p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-right a {
+    color: #FF6347; /* Tomato Red */
+    text-decoration: none;
+  }
+  
+  .footer-right a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    font-size: 0.9em;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+
+  

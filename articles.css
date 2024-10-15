@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  nav {
+    background-color: #4B0082; /* Dark Purple */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav a.topmenu {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav a.topmenu:hover {
+    text-decoration: underline;
+  }
+  
+  .articles-header {
+    background-color: #4B0082;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .login-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    color: #4B0082;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .login-button {
+    background-color: #4B0082;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #3a0066;
+  }
+  
+  .articles-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .articles-section h2 {
+    font-size: 28px;
+    color: #4B0082;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .articles-categories {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .category {
+    flex: 1;
+    margin: 0 15px;
+  }
+  
+  .category h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .category ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .category ul li {
+    margin-bottom: 10px;
+  }
+  
+  .category ul li a {
+    color: #4B0082;
+    text-decoration: none;
+  }
+  
+  .category ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #4B0082;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
